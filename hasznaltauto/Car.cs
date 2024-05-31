@@ -9,22 +9,21 @@ namespace hasznaltauto
     internal class Car
     {
         public string Nev { get; set; }
-
-        public string Tipus { get; set;}
-
+        //tipus
+        public string Tipus { get; set; }
+        //üzemanyag
         public string Uzemanyag { get; set; }
-
+        //évjárat
         public int Ev { get; set; }
-     
+        //kép
         public string Kep { get; set; }
-
-        public Car(string Nev, string Tipus, string Uzemanyag, int Ev, string source) 
+        public Car(string nev, string tipus, string uzemanyag, int ev, string source)
         {
-            Nev = Nev;
-            Tipus = Tipus;
-            Uzemanyag = Uzemanyag;
-            Tipus = Tipus;
-            Kep = $@"..\..\..\imges\{source}";
+            Nev = nev;
+            Tipus = tipus;
+            Uzemanyag = uzemanyag;
+            Ev = ev;
+            Kep = $@"..\..\..\imges\{source}"; 
         }
 
     }
