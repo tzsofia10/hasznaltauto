@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using static System.Net.Mime.MediaTypeNames;
+
 
 namespace hasznaltauto
 {
@@ -75,8 +75,20 @@ namespace hasznaltauto
         {
             if (kocsikLista.SelectedItem != null)
             {
-                kocsikLista.Items.Remove(kocsikLista.SelectedItem);
+                int index = kocsikLista.SelectedIndex;
+                kocsikLista.Items.RemoveAt(index);
+
+                kocsik.Remove(kocsik[index]);
+
+                string s = string.Empty;
+                NevLabel.Content = s;
+                TipusLabel.Content = s;
+                uzemanyagLabel.Content = s;
+                EvLabel.Content = s;
+                images.Children.Clear();
             }
+           
+
         }
     }
 }

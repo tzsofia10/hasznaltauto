@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="kocsikLista" HorizontalAlignment="Left" Height="236" Margin="30,41,0,0" VerticalAlignment="Top" Width="156"  Background="#FFDBADEA"/>
+        <ListBox x:Name="kocsikLista" HorizontalAlignment="Left" Height="236" Margin="10,41,0,0" VerticalAlignment="Top" Width="176"  Background="#FFDBADEA"/>
         <Label Content="Név:" HorizontalAlignment="Left" Height="48" Margin="214,41,0,0" VerticalAlignment="Top" Width="95" Background="#FFDBADEA" FontSize="15"/>
         <Label Content="Típus:" HorizontalAlignment="Left" Height="49" Margin="214,104,0,0" VerticalAlignment="Top" Width="95" Background="#FFDBADEA" FontSize="15"/>
         <Label Content="Üzemanyag:" HorizontalAlignment="Left" Height="54" Margin="214,163,0,0" VerticalAlignment="Top" Width="95" Background="#FFDBADEA" FontSize="15"/>
         <Label Content="Év:" HorizontalAlignment="Left" Height="54" Margin="214,223,0,0" VerticalAlignment="Top" Width="95" Background="#FFDBADEA" FontSize="15"/>
-        <StackPanel x:Name="images" HorizontalAlignment="Left" Height="206" Margin="537,65,0,0" VerticalAlignment="Top" Width="227"/>
-        <Button x:Name="torles" Content="Törlés" HorizontalAlignment="Left" Height="32" Margin="42,308,0,0" VerticalAlignment="Top" Width="124" Background="#FFF79292" Click="torles_Click_1"/>
-        <Label x:Name="NevLabel" Content="" HorizontalAlignment="Left" Height="48" Margin="336,41,0,0" VerticalAlignment="Top" Width="138" Background="#FFDBADEA" FontSize="15"/>
-        <Label x:Name="TipusLabel" Content="" HorizontalAlignment="Left" Height="49" Margin="336,104,0,0" VerticalAlignment="Top" Width="138" Background="#FFDBADEA" FontSize="15"/>
-        <Label x:Name="uzemanyagLabel" Content="" HorizontalAlignment="Left" Height="54" Margin="336,163,0,0" VerticalAlignment="Top" Width="138" Background="#FFDBADEA" FontSize="15"/>
-        <Label x:Name="EvLabel" Content="" HorizontalAlignment="Left" Height="54" Margin="336,223,0,0" VerticalAlignment="Top" Width="138" Background="#FFDBADEA" FontSize="15"/>
+        <StackPanel x:Name="images" HorizontalAlignment="Left" Height="236" Margin="530,41,0,0" VerticalAlignment="Top" Width="244"/>
+        <Button x:Name="torles" Content="Törlés" HorizontalAlignment="Left" Height="39" Margin="26,308,0,0" VerticalAlignment="Top" Width="144" Background="#FFF79292" Click="torles_Click_1"/>
+        <Label x:Name="NevLabel" Content="" HorizontalAlignment="Left" Height="48" Margin="336,41,0,0" VerticalAlignment="Top" Width="164" Background="#FFDBADEA" FontSize="15"/>
+        <Label x:Name="TipusLabel" Content="" HorizontalAlignment="Left" Height="49" Margin="336,104,0,0" VerticalAlignment="Top" Width="164" Background="#FFDBADEA" FontSize="15"/>
+        <Label x:Name="uzemanyagLabel" Content="" HorizontalAlignment="Left" Height="54" Margin="336,163,0,0" VerticalAlignment="Top" Width="164" Background="#FFDBADEA" FontSize="15"/>
+        <Label x:Name="EvLabel" Content="" HorizontalAlignment="Left" Height="54" Margin="336,223,0,0" VerticalAlignment="Top" Width="164" Background="#FFDBADEA" FontSize="15"/>
 
     </Grid>
 </Window>
